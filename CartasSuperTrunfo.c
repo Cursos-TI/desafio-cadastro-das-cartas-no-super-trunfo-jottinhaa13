@@ -22,7 +22,7 @@ int main() {
     scanf("%s", A01);
 
     printf("Digite o Estado: \n");
-    scanf("%s", &SaoPaulo);
+    scanf("%49[^\n]", &SaoPaulo);
 
     printf("População: \n");
     scanf("%d", &populacao1);
@@ -54,7 +54,7 @@ int main() {
     scanf("%s", &B02);
 
     printf("Digite o Estado: \n");
-    scanf("%s", &Ceara);
+    scanf("%49[^\n]", &Ceara);
 
     printf("População: \n");
     scanf("%d", &populacao2);
