@@ -14,6 +14,7 @@ int main() {
     int pontosTuristicos1, pontosTuristicos2;
 
     // Carta A01
+    printf("Carta A\n");
     printf("Dado da carta: \n");
     scanf("%c", &A);
 
@@ -44,6 +45,7 @@ int main() {
     printf("Pontos Turísticos: %d\n", pontosTuristicos1);
 
     //Carta B02
+    printf("Carta B\n");
 
     printf("Dado da carta: \n");
     scanf("%c", &B);
